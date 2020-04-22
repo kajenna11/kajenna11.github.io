@@ -1,0 +1,116 @@
+body {
+    font-size: 16px;
+    background-color: brown;
+    font-family: 'Roboto Slab', sans-serif;
+    padding-top: 75px;
+}
+
+#header-nav {
+    background-color: darkorange;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    height: 75px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-brand h1 {
+    margin: 0px;
+    color: white;
+}
+
+#nav-list a {
+    color: brown;
+    font-size: 1.5em;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+#nav-list div {
+    padding: 0px 35% 0px 38%;
+}
+
+#nav-list a div span {
+    margin-right: 5px;  
+}
+
+#nav-list a:hover {
+    background-color: white;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid brown;
+}
+
+.navbar-header button.navbar-toggle {
+    margin-top: 20px;
+}
+
+
+h1 {
+    color: white;
+    height: 75px;
+}
+
+#beef, #sushi {
+    padding-top: 75px;
+}
+#chicken {
+    padding-top:15px;
+}
+
+#chicken, #beef, #sushi {
+    text-justify: auto;
+    background: darkorange;
+    color: white;
+}
+
+#container {
+    padding: 15px;
+    margin: 0 5% 0 5%;
+} 
+
+#container h2 {
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+#container > div {
+    margin: 10px, 10px, 10px, 10px;
+}
+
+/********** desktop version **********/
+@media (min-width: 992px) {
+
+    #chicken, #beef, #sushi {
+        padding-top: 15px;
+    }
+
+}
+  
+/********** tablet version **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    #chicken, #beef {
+        padding-top: 15px;
+        margin-bottom: 50px;
+    }
+
+    #sushi {
+        padding-top: 75px;
+        clear: right;
+    }
+   
+}
