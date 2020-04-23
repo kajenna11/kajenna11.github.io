@@ -65,22 +65,9 @@ h1 {
     height: 75px;
 }
 
-#beef, #sushi {
-    padding-top: 75px;
-}
-#chicken {
-    padding-top:15px;
-}
-
-#chicken, #beef, #sushi {
-    text-justify: auto;
-    background: darkorange;
-    color: white;
-}
-
 #container {
     padding: 15px;
-    margin: 0 5% 0 5%;
+    margin: 0 2.5% 0 2.5%;
 } 
 
 #container h2 {
@@ -88,8 +75,18 @@ h1 {
     margin-top: 0px;
 }
 
-#container > div {
-    margin: 10px, 10px, 10px, 10px;
+#beef, #sushi {
+    padding-top: 75px;
+}
+#chicken {
+    padding-top:15px;
+}
+.inside_section {
+    background: darkorange;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 
 /********** desktop version **********/
@@ -109,8 +106,12 @@ h1 {
     }
 
     #sushi {
-        padding-top: 75px;
+        padding-top: 15px;
         clear: right;
     }
-   
+
+    #tablet_view_adjustment {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }  
 }
